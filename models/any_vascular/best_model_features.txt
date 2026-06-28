@@ -1,0 +1,7 @@
+TREM2_per100
+HbA1c_pct
+systolic_blood_pressure
+age
+TP
+height
+CHOL
