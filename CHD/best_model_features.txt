@@ -1,0 +1,17 @@
+TREM2_per100
+CHOL
+LDL_CH
+age
+pulse
+diastolic_blood_pressure
+RDW_SD
+HDL_CH
+PT_pct
+TBIL
+MCHC
+NEUT
+NEUT_pct
+wBC
+UA
+INR
+smoking_history

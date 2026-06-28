@@ -1,0 +1,13 @@
+CREA
+TREM2_per100
+UREA
+UA
+systolic_blood_pressure
+HGB
+TP
+age
+HCT
+MCHC
+NEUT_pct
+TBIL
+LYMPH_pct
