@@ -1,0 +1,11 @@
+TREM2_per100
+ALB
+HbA1c_pct
+height
+HGB
+TP
+PLT
+alcohol_consumption_history
+LYMPH_abs
+age
+HCT
