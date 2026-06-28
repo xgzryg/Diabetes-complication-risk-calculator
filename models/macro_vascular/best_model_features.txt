@@ -1,0 +1,13 @@
+TREM2_per100
+age
+HbA1c_pct
+pulse
+systolic_blood_pressure
+LDL_CH
+HDL_CH
+ALB
+CHOL
+BMI
+height
+RDW_SD
+NEUT
