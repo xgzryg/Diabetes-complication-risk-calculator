@@ -13,7 +13,7 @@ shiny::runApp(".")
 Or from the project parent path:
 
 ```r
-shiny::runApp("K:/UKB文章/06.糖尿病临床数据_TREM2_FBLN1/Shiny_DiaComplication_11Models")
+shiny::runApp("./Shiny_DiaComplication_11Models")
 ```
 
 The root directory intentionally keeps only one R entry file: `app.R`.
