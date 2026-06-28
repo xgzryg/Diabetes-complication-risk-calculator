@@ -1,0 +1,10 @@
+TREM2_per100
+systolic_blood_pressure
+HbA1c_pct
+ALB
+age
+PLT
+MPV
+TT
+smoking_history
+TP

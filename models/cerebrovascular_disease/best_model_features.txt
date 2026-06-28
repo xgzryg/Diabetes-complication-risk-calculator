@@ -1,0 +1,10 @@
+TREM2_per100
+age
+CHOL
+diastolic_blood_pressure
+height
+LDL_CH
+pulse
+RdW_CV
+RBC
+smoking_history
