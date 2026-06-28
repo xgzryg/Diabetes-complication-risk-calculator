@@ -1,0 +1,15 @@
+TREM2_per100
+HbA1c_pct
+TBIL
+ALB
+age
+TT
+HGB
+HDL_CH
+TP
+NEUT
+HCT
+diastolic_blood_pressure
+LYMPH_abs
+NEUT_pct
+LYMPH_pct

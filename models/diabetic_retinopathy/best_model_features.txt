@@ -1,0 +1,13 @@
+TREM2_per100
+CREA
+HGB
+CHOL
+HCT
+LDL_CH
+ALB
+systolic_blood_pressure
+LYMPH_abs
+HDL_CH
+TP
+UA
+ALT
