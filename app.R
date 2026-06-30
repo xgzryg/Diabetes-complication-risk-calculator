@@ -169,7 +169,7 @@ make_ai_prompt <- function(target_vars, metadata) {
     " | expected numeric range approximately: ", mm$min, " to ", mm$max
   )
   paste(
-    "You are a clinical data extraction assistant for a diabetes vascular complication prediction calculator.",
+    "You are a clinical data extraction assistant for a diabeticvascular complication prediction calculator.",
     "Extract the following model variables from the uploaded medical image, lab report, clinical note, or table.",
     "Return ONLY valid JSON. Do not include markdown fences. Do not explain.",
     "JSON schema:",
@@ -300,8 +300,8 @@ ui <- fluidPage(
     tags$link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css")
   ),
   div(class = "hero",
-      h1(tags$i(class = "fa-solid fa-heart-pulse"), " Diabetes Vascular Complication ML Calculator"),
-      p("A multi-outcome web calculator for individualized prediction of diabetes-related vascular complications using 11 Pareto-selected random forest models."),
+      h1(tags$i(class = "fa-solid fa-heart-pulse"), " DiabeticVascular Complication ML Calculator"),
+      p("A multi-outcome web-based calculator for individualized prediction of diabetes-related vascular complications using 11 Pareto-selected random forest models."),
       span(class = "hero-badge", "11 outcomes"),
       span(class = "hero-badge", "39 model input columns"),
       span(class = "hero-badge", "Dynamic form"),
@@ -352,7 +352,7 @@ ui <- fluidPage(
             column(7,
               div(class = "main-card",
                 h4(tags$i(class = "fa-solid fa-diagram-project"), " Calculator Workflow"),
-                div(class = "workflow-step", div(class = "num", "1"), div(strong("Select outcomes"), br(), "Choose one, multiple, or all diabetes vascular endpoints.")),
+                div(class = "workflow-step", div(class = "num", "1"), div(strong("Select outcomes"), br(), "Choose one, multiple, or all diabeticvascular endpoints.")),
                 div(class = "workflow-step", div(class = "num", "2"), div(strong("Enter only required variables"), br(), "The form uses the union of variables across selected models, so repeated predictors appear once.")),
                 div(class = "workflow-step", div(class = "num", "3"), div(strong("Model-specific standardization"), br(), "Each model applies its own training-set center and scale parameters before prediction.")),
                 div(class = "workflow-step", div(class = "num", "4"), div(strong("Interpret risk with context"), br(), "Output probabilities, relative strata, charts, and downloadable tables are provided for clinical review."))
@@ -479,7 +479,7 @@ ui <- fluidPage(
       )
     )
   ),
-  div(class = "footer", "Built with Shiny and randomForestSRC | Diabetes vascular complication machine-learning calculator")
+  div(class = "footer", "Built with Shiny and randomForestSRC | Diabeticvascular complication machine-learning calculator")
 )
 
 server <- function(input, output, session) {
